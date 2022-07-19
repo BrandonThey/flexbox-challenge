@@ -1,0 +1,30 @@
+#logo {
+    background-color: green;
+    color: white;
+}
+#navbar {
+    justify-content: space-evenly;
+}
+
+main {
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.horizontal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    height: 90%;
+}
+
+.horizontal div {
+    border: 2px solid black;
+}
+
+.vertical {
+    width: 35%;
+    height: 90%;
+    border: 2px solid black;
+}
