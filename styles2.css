@@ -45,18 +45,35 @@ main {
 .horizontal {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 70%;
-    height: 90%;
+    height: 60vh;
     margin: 8px;
 }
 
 .horizontal div {
     border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-.horizontal h2 {
-    margin-left: 10px;
+#div2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#div3 {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.horizontal p {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 5px;
 }
 
 .vertical {
