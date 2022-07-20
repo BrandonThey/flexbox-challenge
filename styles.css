@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -7,6 +11,7 @@ nav {
   height: 40px;
   background-color: black;
   color: white;
+  margin: 0;
 }
 
 #logo {
@@ -19,21 +24,34 @@ nav {
   width: 15%;
 }
 
-#navbar {
+#linkbar {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 50%;
+  justify-content: space-around;
+  width: 60%;
   height: 100%;
 }
 
-#navbar a {
+#linkbar a {
   color: white;
 }
 
-#navbar a:hover {
+#linkbar a:hover {
   color: aqua;
   background-color: white;
+}
+
+#profile{
+  text-align: center;
+}
+#profile a{
+  text-decoration: none;
+  color: white;
+}
+
+#profile img {
+  width: 7%;
+  height: 7%;
 }
 
 article {
