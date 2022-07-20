@@ -38,9 +38,25 @@ nav {
 
 article {
   display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 100%;
 }
 
 .panel {
   border: 2px solid black;
   margin: 2px;
+  height: 25%;
+  width: 20%;
+}
+
+article img {
+  height: 80%;
+  width: 95%;
+  margin: 5px;
+}
+
+article h2, article h3{
+  margin: 0;
 }
